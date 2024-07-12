@@ -2,7 +2,7 @@ import PreviewBox from "./PreviewBox";
 import Image from "next/image";
 export default function HeroSection() {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex flex-col items-center justify-end w-screen">
       <div>
         <Image
           src="/hero.webp"
@@ -14,7 +14,7 @@ export default function HeroSection() {
       </div>
       <div className="w-full h-full bg-gradient-to-t from-gray-800 to-red-500 absolute inset-0 z-10 opacity-50"></div>
       <div className="w-full h-12 bg-gradient-to-t from-zinc-950 absolute bottom-0 z-10"></div>
-      <div className="z-20 -translate-y-10">
+      <div className="z-20 -translate-y-20">
         <div className="text-white text-center relative z-30 flex flex-col gap-5">
           <h1 className=" border rounded-lg w-max mx-auto px-2 py-1 bg-gray-50 text-gray-900 font-semibold text-sm">
             #BeAmbitious
@@ -26,7 +26,7 @@ export default function HeroSection() {
           </p>
         </div>
       </div>
-      <div className="absolute w-full bottom-4 flex overflow-scroll gap-5 z-20 p-4">
+      <div className="w-full  flex overflow-scroll gap-5 z-20 p-4">
         <PreviewBox
           image="/Oliver.png"
           description="BUILDING A STARTUP CITY"

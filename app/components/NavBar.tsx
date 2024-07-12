@@ -26,7 +26,7 @@ export default function NavBar() {
   return (
     <div
       className={clsx(
-        "fixed z-40 w-full px-4 lg:px-10 py-5 transition duration-500 ease-in-out",
+        "fixed z-40 w-full px-4 lg:px-10 py-3 transition duration-500 ease-in-out",
         {
           "bg-transparent text-white": !isScrolled,
           "bg-black text-white": isScrolled,
