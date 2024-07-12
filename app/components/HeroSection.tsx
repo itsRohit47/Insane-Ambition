@@ -28,7 +28,7 @@ export default function HeroSection() {
       </div>
       <div className="absolute w-full bottom-4 flex overflow-scroll gap-5 z-20 p-4">
         <PreviewBox
-          image="/oliver.png"
+          image="/Oliver.png"
           description="BUILDING A STARTUP CITY"
         ></PreviewBox>
         <PreviewBox

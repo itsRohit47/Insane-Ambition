@@ -7,7 +7,7 @@ export default function PreviewBox({
   description: string;
 }) {
   return (
-    <div className="h-50 relative min-w-[360px]">
+    <div className="h-52 relative min-w-[360px]">
       <div className="w-full h-12 bg-gradient-to-t from-black absolute bottom-0 z-10"></div>
       <Image
         src={image}
