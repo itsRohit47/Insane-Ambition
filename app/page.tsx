@@ -1,10 +1,10 @@
-import HeroSection from "./components/HeroSection";
-import PodcastCard from "./components/PodcastCard";
+import HeroSection from "./Page Sections/HeroSection";
+import PodcastCard from "./Page Sections/PodcastCard";
 export default function Home() {
   return (
     <main className="">
       <HeroSection></HeroSection>
-      <div className="px-4 lg:px-10 py-10">
+      {/* <div className="px-4 lg:px-10 py-10">
         <h1 className="text-white font-bold text-lg px-2">All Episodes</h1>
         <br></br>
         <div className="flex flex-col gap-10">
@@ -45,7 +45,7 @@ export default function Home() {
             tags={["Business", "MedTech", "Skincare", "Innovation", "Entrepreneurship"]}
           ></PodcastCard>{" "}
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
